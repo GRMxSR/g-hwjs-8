@@ -33,3 +33,14 @@ body {
 .gallery-image:hover {
   transform: scale(1.03);
 }
+@media (max-width: 768px) {
+  .gallery-item {
+    flex-basis: calc((100% - 40px) / 2);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    flex-basis: 100%;
+  }
+}
